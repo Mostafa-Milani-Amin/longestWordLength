@@ -1,0 +1,1 @@
+const longestWordLength = str => str.split(' ').sort((a, b) => b.length - a.length)[0].length;
